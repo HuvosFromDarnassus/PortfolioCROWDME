@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="js/tabs-script.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scroll-script.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <title>CROWDME</title>
+  </head>
+  <body>
+    <header>
+      <div class="container grid">
+        <div class="logo grid wow fadeIn" data-wow-delay="1.5s">
+          <div class="grid" id="home">
+            <img src="files/logo_img-2.png" alt="logo_img-2" />
+            <img src="files/logo_img-3.png" alt="logo_img-3" />
+            <img src="files/logo_img-4.png" alt="logo_img-4" />
+            <img src="files/logo_img-1.png" alt="logo_img-1" />
+          </div>
+          <h1>CROWDME</h1>
+        </div>
+        <nav id="menu" class="wow fadeIn" data-wow-delay="2s">
+          <a href="#HOME">HOME</a>
+          <a href="#HOW">HOW IT WORKS</a>
+          <a href="#PROJECT">DISCOVER A PROJECT</a>
+          <a href="#BLOG">BLOG</a>
+          <a href="#MORE">FIND OUT MORE</a>
+        </nav>
+        <input
+          type="button"
+          value="LOGIN"
+          class="wow jackInTheBox"
+          data-wow-delay="1.7s"
+        />
+      </div>
+    </header>
+
+    <section class="face">
+      <ul class="body_slides">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="container grid wow fadeIn" data-wow-delay="1s">
+        <h1>Intellectual Property has the Shelf Life</h1>
+        <h2>of a Banana.</h2>
+        <input
+          type="button"
+          value="Become a Member"
+          class="wow pulse"
+          data-wow-delay="1.8s"
+        />
+      </div>
+    </section>
+
+    <section class="content_1" id="HOW">
+      <div class="container grid wow fadeIn" data-wow-delay="2s">
+        <img src="files/content_1_img.png" alt="" />
+        <h2>
+          Our work is the presentation<br />
+          of our capabilities.
+        </h2>
+        <p class="wow fadeIn">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iure
+          reprehenderit at,<br />
+          non eveniet dolorum accusamus earum.
+        </p>
+        <p class="wow fadeIn">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid iure
+          reprehenderit at,<br />
+          non eveniet dolorum accusamus earum.
+        </p>
+      </div>
+    </section>
+
+    <section class="content_2">
+      <div class="container grid wow fadeIn">
+        <div class="tabs">
+          <a onclick="openCity('London')"><span>1</span>Simple</a>
+          <a onclick="openCity('Paris')"><span>2</span>Transparent</a>
+          <a onclick="openCity('Tokyo')"><span>3</span>Collaborative</a>
+        </div>
+
+        <div id="London" class="city w3-animate-right">
+          <div class="grid">
+            <img src="files/content_2-img.png" alt="" />
+            <div>
+              <h2>Browse projects, like booking a hotel online!</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                Repudiandae sunt quas ratione earum, ipsam modi labore?<br />
+                Harum commodi, incidunt quasi ab maxime modi.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="grid">
+              <img src="files/content_2-img-2.png" alt="" />
+              <div>
+                <h2>Find Properties</h2>
+                <p>
+                  Sign up to browse the portfolio.<br />
+                  Your journey to becoming a real<br />
+                  estate baron starts here.
+                </p>
+                <input type="button" value="Become a Member" />
+              </div>
+            </div>
+
+            <div class="grid">
+              <img src="files/content_2-img-3.png" alt="" />
+              <div>
+                <h2>Find Buyers</h2>
+                <p>
+                  Sign up to browse the portfolio.<br />
+                  Your journey to becoming a real<br />
+                  estate baron starts here.
+                </p>
+                <input type="button" value="Submit Your Project" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="Paris" class="city w3-animate-right" style="display: none;">
+          <div class="grid">
+            <img src="files/content_2-img.png" alt="" />
+            <div>
+              <h2>Browse projects, like booking a hotel online!</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                Repudiandae sunt quas ratione earum, ipsam modi labore?<br />
+                Harum commodi, incidunt quasi ab maxime modi.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="grid">
+              <img src="files/content_2-img-2.png" alt="" />
+              <div>
+                <h2>Find Properties</h2>
+                <p>
+                  Sign up to browse the portfolio.<br />
+                  Your journey to becoming a real<br />
+                  estate baron starts here.
+                </p>
+                <input type="button" value="Become a Member" />
+              </div>
+            </div>
+
+            <div class="grid">
+              <img src="files/content_2-img-3.png" alt="" />
+              <div>
+                <h2>Find Buyers</h2>
+                <p>
+                  Sign up to browse the portfolio.<br />
+                  Your journey to becoming a real<br />
+                  estate baron starts here.
+                </p>
+                <input type="button" value="Submit Your Project" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="Tokyo" class="city w3-animate-right" style="display: none;">
+          <div class="grid">
+            <img src="files/content_2-img.png" alt="" />
+            <div>
+              <h2>Browse projects, like booking a hotel online!</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                Repudiandae sunt quas ratione earum, ipsam modi labore?<br />
+                Harum commodi, incidunt quasi ab maxime modi.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="grid">
+              <img src="files/content_2-img-2.png" alt="" />
+              <div>
+                <h2>Find Properties</h2>
+                <p>
+                  Sign up to browse the portfolio.<br />
+                  Your journey to becoming a real<br />
+                  estate baron starts here.
+                </p>
+                <input type="button" value="Become a Member" />
+              </div>
+            </div>
+
+            <div class="grid">
+              <img src="files/content_2-img-3.png" alt="" />
+              <div>
+                <h2>Find Buyers</h2>
+                <p>
+                  Sign up to browse the portfolio.<br />
+                  Your journey to becoming a real<br />
+                  estate baron starts here.
+                </p>
+                <input type="button" value="Submit Your Project" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content_3" id="PROJECT">
+      <div class="container grid">
+        <div class="grid wow fadeIn">
+          <div>
+            <h2>Featured Projects</h2>
+            <p>
+              Brief details of new and popular projects. To view full listing,
+              you will be required to<br />
+              sign up and become a member.
+            </p>
+          </div>
+          <input
+            type="button"
+            value="Become a Member"
+            class="wow jackInTheBox"
+            data-wow-delay="0.2s"
+          />
+        </div>
+
+        <div class="boxes">
+          <div class="box_1 wow zoomIn" data-wow-delay="">
+            <div class="box_img">
+              <div class="ribbon-wrapper">
+                <div class="ribbon">NEW</div>
+              </div>
+              <p>From <strong>GBP 3600</strong></p>
+            </div>
+            <div class="box_content">
+              <h4>Ontario Tower, LONDON</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                Asperiores, iusto. Ducimus, soluta eaque. Cum explicabo dolor.
+              </p>
+
+              <div class="skills">
+                <dl class="skills-list" data-wow-delay="1s">
+                  <dd class="level"><div style="width: 10%;">10%</div></dd>
+                  <dt class="skill-html">10% Funded</dt>
+                  <dt class="skill-html">8 Days Left</dt>
+                </dl>
+              </div>
+              <a href="#">See Project Details <span>&#9658;</span></a>
+            </div>
+          </div>
+
+          <div class="box_1 wow zoomIn" data-wow-delay="0.1s">
+            <div class="box_img_weird">
+              <div class="ribbon-wrapper">
+                <div class="ribbon">NEW</div>
+              </div>
+              <p>From <strong>GBP 3600</strong></p>
+            </div>
+            <div class="box_content">
+              <h4>Ontario Tower, LONDON</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                Asperiores, iusto. Ducimus, soluta eaque. Cum explicabo dolor.
+              </p>
+
+              <div class="skills">
+                <dl class="skills-list" data-wow-delay="1s">
+                  <dd class="level"><div style="width: 60%;">10%</div></dd>
+                  <dt class="skill-html">60% Funded</dt>
+                  <dt class="skill-html">8 Days Left</dt>
+                </dl>
+              </div>
+              <a href="#">See Project Details <span>&#9658;</span></a>
+            </div>
+          </div>
+
+          <div class="box_1 wow zoomIn" data-wow-delay="0.2s">
+            <div class="box_img">
+              <div class="ribbon-wrapper">
+                <div class="ribbon">NEW</div>
+              </div>
+              <p>From <strong>GBP 3600</strong></p>
+            </div>
+            <div class="box_content">
+              <h4>Ontario Tower, LONDON</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+                Asperiores, iusto. Ducimus, soluta eaque. Cum explicabo dolor.
+              </p>
+
+              <div class="skills">
+                <dl class="skills-list" data-wow-delay="1s">
+                  <dd class="level"><div style="width: 10%;">10%</div></dd>
+                  <dt class="skill-html">10% Funded</dt>
+                  <dt class="skill-html">8 Days Left</dt>
+                </dl>
+              </div>
+              <a href="#">See Project Details <span>&#9658;</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content_4" id="BLOG">
+      <div class="container grid">
+        <div class="wow fadeInUp">
+          <h1>Be Part of a Growing International Community</h1>
+          <p>
+            One of the challenges in networking is everybody thinks it's making
+            cold calls to strangers. Actually, it's<br />
+            the people who already have strong trust relationships with you.
+          </p>
+        </div>
+
+        <div class="grid wow slideInUp">
+          <div class="grid">
+            <div class="cloud wow rotateInDownLeft" data-wow-delay="0.6s">
+              <h2>One of the Best</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />
+                Molestias similique tempore, vitae quo laudantium facere
+                dicta<br />
+                facilis commodi ullam vel unde?
+              </p>
+            </div>
+
+            <div class="grid">
+              <img src="files/person1.png" alt="u_img" />
+              <h3>David Beckham</h3>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="cloud wow rotateInDownLeft" data-wow-delay="0.8s">
+              <h2>Exellent Service</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />
+                Molestias similique tempore, vitae quo laudantium facere
+                dicta<br />
+                facilis commodi ullam vel unde?
+              </p>
+            </div>
+
+            <div class="grid">
+              <img src="files/person2.png" alt="u_img" />
+              <h3>David Beckham</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="grid">
+        <img src="files/footer_img.png" alt="" />
+        <nav id="goup" class="wow jackInTheBox">
+          <a class="goup" href="#home">Go Home</a>
+        </nav>
+        <hr />
+      </div>
+      <p>Copyright © 2001 - 2014 Cssauthor.com</p>
+    </footer>
+  </body>
+</html>

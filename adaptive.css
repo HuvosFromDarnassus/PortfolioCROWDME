@@ -1,0 +1,2361 @@
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width: 1315px) {
+  .content_4 > div > div > div {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 990px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  header > div:first-child {
+    grid-template-columns: 2fr 4fr 1fr;
+    height: 80px;
+  }
+
+  header > div:first-child > div > div {
+    padding-top: 20px;
+    grid-template-columns: repeat(3, 15px);
+    grid-template-rows: 15px;
+    align-items: start;
+    justify-items: start;
+  }
+
+  header h1 {
+    color: #6d6e70;
+    font-family: "Nunito-regular", sans-serif;
+    font-size: x-large;
+    padding-left: 0px;
+    padding-top: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: -45px;
+  }
+
+  header nav {
+    align-self: center;
+    margin-left: -30px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    padding: 6px;
+    font-family: "OpenSabs-semibold", sans-serif;
+    font-size: small;
+    color: #6d6e70;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .face h1 {
+    padding-top: 110px;
+    color: #fff;
+    font-size: 40px;
+    font-family: "OpenSans-semibold", sans-serif;
+  }
+
+  .face h2 {
+    margin-top: -155px;
+    color: #fff;
+    font-size: 35px;
+    font-family: "OpenSans-light", sans-serif;
+  }
+
+  .face input {
+    width: 225px;
+    height: 65px;
+    margin-top: -100px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #99c50a;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_1 h2 {
+    font-family: "OpenSans-semibold", sans-serif;
+    color: #515151;
+    text-align: center;
+    font-weight: 300;
+    font-size: x-large;
+    padding-bottom: 25px;
+  }
+
+  .content_1 p {
+    padding: 20px;
+    font-family: "OpenSans-regular", sans-serif;
+    color: #9c9c9c;
+    text-align: center;
+    font-size: medium;
+  }
+
+  .content_2 .tabs > a {
+    font-size: 30px;
+    font-family: "OpenSans-light", sans-serif;
+    color: #9c9c9c;
+    padding-bottom: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .content_2 .tabs > a:first-child {
+    margin-right: 30px;
+  }
+
+  .content_2 .tabs > a:nth-child(2) {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .content_2 .tabs > a:last-child {
+    margin-left: 30px;
+  }
+
+  .content_2 .tabs > a > span {
+    background-color: #5f5f5f;
+    border-radius: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    margin-right: 25px;
+    color: #fff;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .content_2 #London > div:first-child img {
+    justify-self: start;
+    margin-left: 75px;
+  }
+
+  .content_2 #London > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: larger;
+  }
+
+  .content_2 #London > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 30px;
+  }
+
+  .content_2 #London > div:first-child + div {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Paris > div:first-child img {
+    justify-self: start;
+    margin-left: 75px;
+  }
+
+  .content_2 #Paris > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: larger;
+  }
+
+  .content_2 #Paris > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 30px;
+  }
+
+  .content_2 #Paris > div:first-child + div {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Tokyo > div:first-child img {
+    justify-self: start;
+    margin-left: 75px;
+  }
+
+  .content_2 #Tokyo > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: larger;
+  }
+
+  .content_2 #Tokyo > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 30px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_3 > div .grid {
+    grid-template-columns: 1fr 1fr;
+    width: 880px;
+  }
+
+  .content_3 > div .grid div {
+    width: 470px;
+  }
+
+  .content_3 > div .grid div h2 {
+    color: #515151;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: large;
+  }
+
+  .content_3 > div .grid div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: small;
+  }
+
+  .content_3 > div .grid input {
+    width: 160px;
+    height: 45px;
+    justify-self: center;
+    align-self: center;
+    background-color: transparent;
+    border: 1px #838383 solid;
+    border-radius: 10px;
+    color: #838383;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    transition: 0.3s ease;
+  }
+
+  .content_3 > div .boxes .box_1 {
+    margin: 7px;
+    width: 300px;
+  }
+
+  .content_4 {
+    background: url("img/content_bg.png") no-repeat top center;
+    background-color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+  }
+
+  .content_4 div > div h1 {
+    color: #add136;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .content_4 div > div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .content_4 > div > div > div {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .content_4 > div > div > div h2 {
+    color: #add136;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: large;
+    text-align: center;
+  }
+
+  .content_4 > div > div > div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .cloud {
+    position: relative;
+    width: 345px;
+    height: 140px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #888;
+    padding: 5px;
+    justify-self: center;
+  }
+
+  .cloud + div img {
+    justify-self: end;
+    padding-top: 45px;
+    width: 50px;
+  }
+
+  .cloud + div h3 {
+    font-family: "Montserrat-regular", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    justify-self: start;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+
+  .goup {
+    background-color: #add136;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    font-weight: 300;
+    margin-right: 100px;
+    transition: 0.4s ease;
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: #fff;
+    width: 100%;
+    height: 160px;
+  }
+
+  footer img {
+    justify-self: start;
+    align-self: center;
+    padding-top: 40px;
+    padding-left: 50px;
+    width: 700px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 730px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  header > div:first-child {
+    grid-template-columns: 2fr 4fr 1fr;
+    height: 80px;
+  }
+
+  header > div:first-child > div > div {
+    padding-top: 20px;
+    grid-template-columns: repeat(3, 15px);
+    grid-template-rows: 15px;
+    align-items: start;
+    justify-items: start;
+  }
+
+  header h1 {
+    color: #6d6e70;
+    font-family: "Nunito-regular", sans-serif;
+    font-size: larger;
+    padding-left: 0px;
+    padding-top: 17px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: -55px;
+  }
+
+  header nav {
+    align-self: center;
+    margin-left: -35px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    padding: 6px;
+    font-family: "OpenSabs-semibold", sans-serif;
+    font-size: smaller;
+    color: #6d6e70;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  header input {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "OpenSabs-semibold", sans-serif;
+    font-size: small;
+    align-self: center;
+    margin-bottom: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: #bcda5c;
+  }
+
+  .face h1 {
+    padding-top: 110px;
+    color: #fff;
+    font-size: 30px;
+    font-family: "OpenSans-semibold", sans-serif;
+  }
+
+  .face h2 {
+    margin-top: -185px;
+    color: #fff;
+    font-size: 25px;
+    font-family: "OpenSans-light", sans-serif;
+  }
+
+  .face input {
+    width: 210px;
+    height: 55px;
+    margin-top: -150px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #99c50a;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 .tabs > a {
+    font-size: 25px;
+    font-family: "OpenSans-light", sans-serif;
+    color: #9c9c9c;
+    padding-bottom: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .content_2 .tabs > a:first-child {
+    margin-right: 20px;
+  }
+
+  .content_2 .tabs > a:nth-child(2) {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .content_2 .tabs > a:last-child {
+    margin-left: 20px;
+  }
+
+  .content_2 .tabs > a > span {
+    background-color: #5f5f5f;
+    border-radius: 50%;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 15px;
+    margin-right: 25px;
+    color: #fff;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .content_2 #London > div:first-child {
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+  }
+
+  .content_2 #London > div:first-child img {
+    justify-self: start;
+    margin-left: 75px;
+    width: 100px;
+  }
+
+  .content_2 #London > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: large;
+  }
+
+  .content_2 #London > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 30px;
+  }
+
+  .content_2 #London > div:first-child + div {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 190px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 190px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: small;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 25px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 190px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 190px;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: small;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 25px;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: smaller;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Paris > div:first-child {
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+  }
+
+  .content_2 #Paris > div:first-child img {
+    justify-self: start;
+    margin-left: 75px;
+    width: 100px;
+  }
+
+  .content_2 #Paris > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: large;
+  }
+
+  .content_2 #Paris > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 30px;
+  }
+
+  .content_2 #Paris > div:first-child + div {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 190px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 190px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: small;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 25px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 190px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 190px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: small;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 25px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: smaller;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Tokyo > div:first-child {
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+  }
+
+  .content_2 #Tokyo > div:first-child img {
+    justify-self: start;
+    margin-left: 75px;
+    width: 100px;
+  }
+
+  .content_2 #Tokyo > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: large;
+  }
+
+  .content_2 #Tokyo > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 30px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 190px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 190px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: small;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 25px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 190px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 190px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: small;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 25px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: smaller;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_3 > div .grid {
+    grid-template-columns: 1.3fr 1fr;
+    width: 850px;
+  }
+
+  .content_3 > div .grid div {
+    width: 370px;
+  }
+
+  .content_3 > div .grid div h2 {
+    color: #515151;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: medium;
+  }
+
+  .content_3 > div .grid div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: smaller;
+  }
+
+  .content_3 > div .grid input {
+    width: 140px;
+    height: 40px;
+    justify-self: start;
+    align-self: center;
+    background-color: transparent;
+    border: 1px #838383 solid;
+    border-radius: 10px;
+    color: #838383;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: smaller;
+    transition: 0.3s ease;
+  }
+
+  .content_3 > div .boxes {
+    display: flex;
+    justify-self: center;
+    margin-left: -150px;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .content_3 > div .boxes .box_1 {
+    margin-top: 15px;
+    width: 300px;
+  }
+
+  .content_4 {
+    background: url("img/content_bg.png") no-repeat top center;
+    background-color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+  }
+
+  .content_4 > div > div:first-child {
+    justify-self: center;
+    width: 700px;
+  }
+
+  .content_4 div > div h1 {
+    color: #add136;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .content_4 div > div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: small;
+    text-align: center;
+  }
+
+  .content_4 > div > div > div {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .content_4 > div > div > div h2 {
+    color: #add136;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .content_4 > div > div > div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .cloud {
+    position: relative;
+    width: 315px;
+    height: 130px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #888;
+    padding: 5px;
+    justify-self: center;
+  }
+
+  .cloud + div img {
+    justify-self: end;
+    padding-top: 55px;
+    margin-right: 10px;
+    width: 45px;
+  }
+
+  .cloud + div h3 {
+    font-family: "Montserrat-regular", sans-serif;
+    font-weight: 600;
+    font-size: small;
+    justify-self: start;
+    padding-left: 10px;
+    padding-top: 55px;
+  }
+
+  .goup {
+    background-color: #add136;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    font-weight: 300;
+    margin-right: 100px;
+    transition: 0.4s ease;
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: #fff;
+    width: 100%;
+    height: 160px;
+  }
+
+  footer img {
+    justify-self: start;
+    align-self: center;
+    padding-top: 40px;
+    padding-left: 30px;
+    width: 600px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 530px;
+    margin: auto;
+    padding: 0 15px;
+  }
+
+  header > div:first-child {
+    grid-template-columns: 2fr 4fr 1fr;
+    height: 80px;
+  }
+
+  header > div:first-child > div > div {
+    padding-top: 20px;
+    margin-left: -35px;
+    grid-template-columns: repeat(3, 15px);
+    grid-template-rows: 15px;
+    align-items: start;
+    justify-items: start;
+  }
+
+  header h1 {
+    color: #6d6e70;
+    font-family: "Nunito-regular", sans-serif;
+    font-size: large;
+    padding-left: 0px;
+    padding-top: 17px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: -90px;
+  }
+
+  header nav {
+    align-self: center;
+    margin-left: -75px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    padding: 6px;
+    font-family: "OpenSabs-semibold", sans-serif;
+    font-size: 11px;
+    color: #6d6e70;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  header input {
+    width: 70px;
+    height: 25x;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "OpenSabs-semibold", sans-serif;
+    font-size: smaller;
+    align-self: center;
+    margin-bottom: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: #bcda5c;
+  }
+
+  .face h1 {
+    padding-top: 110px;
+    color: #fff;
+    font-size: 27px;
+    font-family: "OpenSans-semibold", sans-serif;
+  }
+
+  .face h2 {
+    margin-top: -200px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "OpenSans-light", sans-serif;
+  }
+
+  .face input {
+    width: 190px;
+    height: 45px;
+    margin-top: -150px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #99c50a;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_1 h2 {
+    font-family: "OpenSans-semibold", sans-serif;
+    color: #515151;
+    text-align: center;
+    font-weight: 300;
+    font-size: larger;
+    padding-bottom: 25px;
+  }
+
+  .content_1 p {
+    padding: 20px;
+    font-family: "OpenSans-regular", sans-serif;
+    color: #9c9c9c;
+    text-align: center;
+    font-size: small;
+  }
+
+  .content_2 > div {
+    justify-items: center;
+    width: 500px;
+  }
+
+  .content_2 .tabs > a {
+    font-size: 17px;
+    font-family: "OpenSans-light", sans-serif;
+    color: #9c9c9c;
+    padding-bottom: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .content_2 .tabs > a:first-child {
+    margin-right: 20px;
+  }
+
+  .content_2 .tabs > a:nth-child(2) {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .content_2 .tabs > a:last-child {
+    margin-left: 20px;
+  }
+
+  .content_2 .tabs > a > span {
+    background-color: #5f5f5f;
+    border-radius: 50%;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 14px;
+    margin-right: 25px;
+    color: #fff;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .content_2 #London > div:first-child {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .content_2 #London > div:first-child img {
+    justify-self: start;
+    width: 80px;
+  }
+
+  .content_2 #London > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: medium;
+  }
+
+  .content_2 #London > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 20px;
+  }
+
+  .content_2 #London > div:first-child + div {
+    grid-template-columns: 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Paris > div:first-child {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .content_2 #Paris > div:first-child img {
+    justify-self: start;
+    width: 80px;
+  }
+
+  .content_2 #Paris > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: medium;
+  }
+
+  .content_2 #Paris > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 20px;
+  }
+
+  .content_2 #Paris > div:first-child + div {
+    grid-template-columns: 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Tokyo > div:first-child {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .content_2 #Tokyo > div:first-child img {
+    justify-self: start;
+    width: 80px;
+  }
+
+  .content_2 #Tokyo > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: medium;
+  }
+
+  .content_2 #Tokyo > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 20px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div {
+    grid-template-columns: 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_3 > div .grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 530px;
+  }
+
+  .content_3 > div .grid div {
+    width: 370px;
+    text-align: center;
+  }
+
+  .content_3 > div .grid div h2 {
+    color: #515151;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: large;
+  }
+
+  .content_3 > div .grid div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: small;
+    padding-bottom: 30px;
+  }
+
+  .content_3 > div .grid input {
+    width: 140px;
+    height: 40px;
+    justify-self: center;
+    align-self: center;
+    background-color: transparent;
+    border: 1px #838383 solid;
+    border-radius: 10px;
+    color: #838383;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: smaller;
+    transition: 0.3s ease;
+  }
+
+  .content_3 > div .boxes {
+    display: flex;
+    margin-left: 0px;
+    justify-self: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .content_3 > div .boxes .box_1 {
+    margin-top: 15px;
+    width: 300px;
+  }
+
+  .content_4 {
+    background: url("img/content_bg.png") no-repeat 100% 100%;
+    background-color: #e2e2e2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+  }
+
+  .content_4 > div > div:first-child {
+    justify-self: start;
+    width: 500px;
+  }
+
+  .content_4 div > div h1 {
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .content_4 div > div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: smaller;
+    text-align: center;
+  }
+
+  .content_4 > div > div {
+    grid-template-columns: 1fr;
+    padding-top: 10px;
+  }
+
+  .content_4 > div > div > div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .content_4 > div > div > div h2 {
+    color: #add136;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .content_4 > div > div > div p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .cloud {
+    position: relative;
+    width: 315px;
+    height: 130px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #888;
+    padding: 5px;
+    justify-self: center;
+  }
+
+  .cloud + div img {
+    justify-self: end;
+    padding-top: 55px;
+    margin-right: 10px;
+    width: 45px;
+  }
+
+  .cloud + div h3 {
+    font-family: "Montserrat-regular", sans-serif;
+    font-weight: 600;
+    font-size: small;
+    justify-self: start;
+    padding-left: 10px;
+    padding-top: 55px;
+  }
+
+  .goup {
+    background-color: #add136;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    font-weight: 300;
+    transition: 0.4s ease;
+    text-decoration: none;
+    margin-left: 250px;
+  }
+
+  footer {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+  }
+
+  footer > div {
+    height: 130px;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  footer img {
+    justify-self: start;
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .container {
+    max-width: 460px;
+    margin: auto;
+    padding: 0 15px;
+  }
+
+  header > div:first-child {
+    grid-template-columns: 2fr 4fr 1fr;
+    height: 80px;
+  }
+
+  header > div:first-child > div > div {
+    padding-top: 20px;
+    margin-left: -20px;
+    grid-template-columns: repeat(3, 15px);
+    grid-template-rows: 15px;
+    align-items: start;
+    justify-items: start;
+  }
+
+  header h1 {
+    color: #6d6e70;
+    font-family: "Nunito-regular", sans-serif;
+    font-size: medium;
+    padding-left: 0px;
+    padding-top: 17px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-left: -80px;
+  }
+
+  header nav {
+    align-self: center;
+    margin-left: -75px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    padding: 6px;
+    font-family: "OpenSabs-semibold", sans-serif;
+    font-size: 10px;
+    color: #6d6e70;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  header input {
+    width: 60px;
+    height: 20x;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-family: "OpenSabs-semibold", sans-serif;
+    font-size: 11px;
+    align-self: center;
+    margin-bottom: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: #bcda5c;
+  }
+
+  .face h1 {
+    padding-top: 110px;
+    color: #fff;
+    font-size: 23px;
+    font-family: "OpenSans-semibold", sans-serif;
+  }
+
+  .face h2 {
+    margin-top: -200px;
+    color: #fff;
+    font-size: 22px;
+    font-family: "OpenSans-light", sans-serif;
+  }
+
+  .face input {
+    width: 175px;
+    height: 45px;
+    margin-top: -170px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #99c50a;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 > div {
+    justify-items: center;
+    width: 400px;
+  }
+
+  .content_2 .tabs > a {
+    font-size: 13px;
+    font-family: "OpenSans-light", sans-serif;
+    color: #9c9c9c;
+    padding-bottom: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .content_2 .tabs > a:first-child {
+    margin-right: 10px;
+  }
+
+  .content_2 .tabs > a:nth-child(2) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .content_2 .tabs > a:last-child {
+    margin-left: 10px;
+  }
+
+  .content_2 .tabs > a > span {
+    background-color: #5f5f5f;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+    margin-right: 25px;
+    color: #fff;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .content_2 #London > div:first-child {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .content_2 #London > div:first-child img {
+    justify-self: center;
+    width: 80px;
+    margin-left: 0px;
+  }
+
+  .content_2 #London > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: medium;
+  }
+
+  .content_2 #London > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 20px;
+  }
+
+  .content_2 #London > div:first-child + div {
+    grid-template-columns: 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #London > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #London > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Paris > div:first-child {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .content_2 #Paris > div:first-child img {
+    justify-self: center;
+    width: 80px;
+    margin-left: 0px;
+  }
+
+  .content_2 #Paris > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: medium;
+  }
+
+  .content_2 #Paris > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 20px;
+  }
+
+  .content_2 #Paris > div:first-child + div {
+    grid-template-columns: 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Paris > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Tokyo > div:first-child {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .content_2 #Tokyo > div:first-child img {
+    justify-self: center;
+    width: 80px;
+    margin-left: 0px;
+  }
+
+  .content_2 #Tokyo > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #add136;
+    font-weight: 300;
+    font-size: medium;
+  }
+
+  .content_2 #Tokyo > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: smaller;
+    line-height: 20px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div {
+    grid-template-columns: 1fr;
+    padding-top: 70px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #e2f8ff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:first-child input {
+    background-color: #26a6d1;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) {
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color: #f5f9eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 200px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) h2 {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #515151;
+    font-weight: 600;
+    font-size: medium;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) p {
+    font-family: "OpenSans-regular", sans-serif;
+    color: #5f5f5f;
+    font-weight: 100;
+    font-size: small;
+    line-height: 25px;
+  }
+
+  .content_2 #Tokyo > div:first-child + div > div:nth-child(2) input {
+    background-color: #add136;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .content_3 > div .grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 400px;
+  }
+
+  .content_3 > div .grid div {
+    width: 270px;
+    text-align: center;
+  }
+
+  .content_4 {
+    background: url("img/content_bg.png") no-repeat 100% 100%;
+    background-color: #e2e2e2;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+  }
+
+  .content_4 > div > div:first-child {
+    justify-self: start;
+    width: 420px;
+  }
+
+  .goup {
+    background-color: #add136;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: small;
+    font-weight: 300;
+    transition: 0.4s ease;
+    text-decoration: none;
+    margin-left: 300px;
+  }
+
+  footer {
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+  }
+
+  footer > div {
+    height: 130px;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  footer img {
+    justify-self: start;
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    width: 450px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+}

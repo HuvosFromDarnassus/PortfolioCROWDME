@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "OpenSans-semibold"; 
+    src: url("fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "OpenSans-bold"; 
+    src: url("fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "OpenSans-light"; 
+    src: url("fonts/OpenSans/OpenSans-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "OpenSans-regular"; 
+    src: url("fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+
+@font-face {
+    font-family: "Nunito-regular"; 
+    src: url("fonts/Nunito/Nunito-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "Montserrat-regular"; 
+    src: url("fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
